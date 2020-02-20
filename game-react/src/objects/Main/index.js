@@ -1,8 +1,8 @@
 import React from 'react';
-//import './styles.css';
+import './style.css';
 
 const Main = () =>(
-    <a href="#menu" className="menu">Menu</a>
+    <a href="#menu" className="main"><span className="center">Menu</span></a>
 ); 
 
 export default Main;
