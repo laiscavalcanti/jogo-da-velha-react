@@ -3,11 +3,14 @@ import './style.css';
 import playerX from '../../images/X.png';
 import playerO from '../../images/Circle.png';
 
-const Player = () => (
-    <button className="player">
-        <img src={playerX} alt="jogador X" />
-    </button>
-    
-)
+const Player = ({player}) => {
+    const players = [];
+    players['x'] = playerX;
+    players['o'] = playerO;
+
+  return  <button className="player">
+        <img src={players[player]} alt={`jogador ${player}`} />
+    </button>   
+};
 
 export default Player;
