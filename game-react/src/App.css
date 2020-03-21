@@ -1,0 +1,10 @@
+.app{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.app > .card{
+    width: 90vw;
+    height: 90vw;
+}
