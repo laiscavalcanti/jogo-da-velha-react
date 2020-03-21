@@ -1,0 +1,19 @@
+.card{
+    padding: 15px;
+}
+
+.hashtag{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-color: var(--color-third);
+}
+
+.hashtag > .item{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-zero);
+}
