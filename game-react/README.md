@@ -1,8 +1,8 @@
-## Jogo da Velha em React :hash:
+# Jogo da Velha em React :hash:
 
 Jogo feito a partir do Tutorial da documentação do React e do curso CollabCode.
 
-# Requisitos:
+## Requisitos:
     - Node 12.x ou supereior
     - npm i
     - npm start
