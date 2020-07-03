@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/Header';
 import Hashtag from './components/Hashtag';
-import Label from './objects/Label';
+import Checkbox from './objects/Checkbox';
 
 
 const App = () => {
@@ -11,9 +11,8 @@ const App = () => {
     <main className="app">
       <Header />
       <Hashtag />
-      <Label content="Mostrar eventos"/>
+      <Checkbox id="show" value="show" content="Mostrar eventos" />
     </main>
-    
   );
 }
 

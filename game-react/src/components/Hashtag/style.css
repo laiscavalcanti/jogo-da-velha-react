@@ -7,8 +7,6 @@
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
     background-color: var(--color-third);
 }
 
@@ -16,4 +14,17 @@
     display: flex;
     justify-content: center;
     background-color: var(--color-zero);
+}
+.hashtag > .item:nth-child(2){
+    justify-content: space-between;
+}
+
+.hashtag > .item:nth-child(2)::before,
+.hashtag > .item:nth-child(2)::after{
+    content: '';
+    width: 3px;
+    height: 100%;
+    background-color: tomato;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
