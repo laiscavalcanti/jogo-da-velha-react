@@ -1,0 +1,10 @@
+.user {
+  font: bold 18px "Montserrat";
+  color: #707070;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.user .-light{
+    color: var(--color-zero);
+}
