@@ -1,0 +1,11 @@
+.header-internal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--spacing-big);
+}
+
+.header-internal > .user{
+    margin-left: auto;
+    margin-right: var(--spacing-small);
+}

@@ -5,9 +5,8 @@ import Header from "./components/Header"
 import Hashtag from "./components/Hashtag"
 import Checkbox from "./objects/Checkbox"
 import About from "./objects/About"
-import User from "./objects/User"
-import IconClose from "./objects/IconClose"
-import Logo from "./objects/Logo"
+import HeaderInternal from "./components/HeaderInternal"
+
 
 const App = () => {
   return (
@@ -16,9 +15,7 @@ const App = () => {
       <Hashtag />
       <Checkbox id="show" value="show" content="Mostrar eventos" />
       <About>
-        <Logo light={true} />
-        <User className= "-light" />
-        <IconClose />
+        <HeaderInternal />
       </About>
     </main>
   )
