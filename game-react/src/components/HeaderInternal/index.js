@@ -1,9 +1,9 @@
-import React from "react";
-import './styles.css';
+import React from "react"
+import "./style.css"
 
-import User from "./objects/User"
-import IconClose from "./objects/IconClose"
-import Logo from "./objects/Logo"
+import User from "../../objects/User"
+import IconClose from "../../objects/IconClose"
+import Logo from "../../objects/Logo"
 
 const HeaderInternal = () => (
   <header className="header-internal">
@@ -13,4 +13,4 @@ const HeaderInternal = () => (
   </header>
 )
 
-export default HeaderInternal;
+export default HeaderInternal

@@ -1,8 +1,10 @@
-import React from 'react';
-import './styles.css'
+import React from "react"
+import "./styles.css"
 
-const About = (className =" ") =>
-    (<a href="#to-do" className={`page-about ${className}`}>SOBRE</a>)
+const About = (className = " ", onClick) => (
+  <a href="#to-do" className={`page-about ${className}`} onClick={onClick}>
+    SOBRE
+  </a>
+)
 
-
-export default About;
+export default About
