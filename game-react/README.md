@@ -1,4 +1,4 @@
-# Jogo da Velha em React :hash:
+# Jogo da Velha com React :hash:
 
 Jogo feito a partir do Tutorial da documentação do React e do curso CollabCode.
 
