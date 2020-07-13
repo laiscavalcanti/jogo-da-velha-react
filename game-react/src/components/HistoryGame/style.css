@@ -1,0 +1,9 @@
+.history-game > .action{
+    margin-bottom: var(--spacing-small);
+}
+
+.history-game .tag-game{
+    box-sizing: border-box;
+   display: inline-block;
+   width: 130px;
+}

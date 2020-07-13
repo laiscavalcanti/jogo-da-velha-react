@@ -1,6 +1,7 @@
-:root{
+:root {
     --color-negative: #3a4042;
-    --color-zero: #ffffff;
+    --color-light-negative: rgba(58, 64, 66, 0.1);
+    --color-zero: #fff;
     --color-first: #f25a70;
 
     --color-second: #eeeeee;
@@ -11,4 +12,7 @@
     --color-sixth: #fffcee;
     --color-seventh: #f4f1e4;
     --color-eight: #eae6da;
+    --color-nineth: #eff25a;
+    --color-tenth: #e5e5e5;
+    --color-eleventh: #f1f1f1;
 }

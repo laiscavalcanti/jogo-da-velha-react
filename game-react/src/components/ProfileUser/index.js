@@ -1,5 +1,5 @@
 import React from "react"
-import AvatarProfile from "../../AvatarProfile"
+import AvatarProfile from "../../objects/AvatarProfile"
 import Profile from "../../images/profile.jpg"
 import "./style.css"
 import IconSocial from "../../objects/IconSocial"
@@ -7,9 +7,9 @@ import { Twitter } from "@styled-icons/boxicons-logos/Twitter"
 import { Github } from "@styled-icons/boxicons-logos/Github"
 
 const ProfileUser = () => (
-  <dl className="profile.user">
+  <dl className="profile-user">
     <dd className="avatar">
-      <AvatarProfile src={Profile} alt="Avatar Laís" />
+      <AvatarProfile src={Profile} alt="Avatar Lais" />
     </dd>
     <dt className="title">Laís</dt>
     <dd className= "description">Lorem lorem lorem lorem</dd>

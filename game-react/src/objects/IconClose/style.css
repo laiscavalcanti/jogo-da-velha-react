@@ -1,16 +1,16 @@
 .icon-close {
-  display: inline-block;
   position: relative;
-  text-indent: -9999px;
+  display: inline-block;
   width: 24px;
   height: 24px;
-  background-color: tomato;
 }
+
 .icon-close::before,
 .icon-close::after {
-  content: "ffffff";
+  content: "";
   width: 32px;
   height: 4px;
+  background-color: var(--color-zero);
   border-radius: 2px;
   position: absolute;
   top: -1px;
@@ -21,11 +21,13 @@
   transform-origin: top left;
   transform: rotate(45deg);
 }
+
 .icon-close::after {
   right: 2px;
   transform-origin: top right;
   transform: rotate(-45deg);
 }
+
 .icon-close > .content {
   display: inline-block;
   text-indent: -9999px;

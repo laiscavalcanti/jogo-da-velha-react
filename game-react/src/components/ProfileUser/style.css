@@ -1,25 +1,36 @@
+
 .profile-user {
-  color: var(--color-zero);
+    color: var(--color-zero);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.profile-user > .avatar{
+
+.profile-user > .avatar {
     margin-bottom: var(--spacing-medium);
 }
-.profile-user .avatar-profile{
+
+.profile-user > .avatar-profile {
     width: 130px;
     height: 130px;
 }
-.profile-user > .title{
+
+.profile-user > .title {
     font-size: var(--size-big);
     font-weight: bold;
     margin-bottom: var(--spacing-small);
 }
 
-.profile-user > .description{
-    width: 70%;
+.profile-user > .description {
+    width: 80%;
     margin: 0 auto var(--spacing-very-big);
     line-height: 1.6;
 }
-.profile-user > .socials{
+
+.profile-user > .socials {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 270px;
+    width: 70%;
+    margin: 0 auto;
 }

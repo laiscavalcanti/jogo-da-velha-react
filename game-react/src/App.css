@@ -1,20 +1,32 @@
-.app{
+.app {
     text-align: center;
     position: relative;
     overflow-x: hidden;
     height: 100vh;
 }
-.app > .header{
+
+.app > .header-game {
     width: 90vw;
     margin: 0 auto 85px;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 260px;
 }
 
-.app > .card{
+.app .card-game {
     display: inline-block;
     box-sizing: border-box;
     width: 90vw;
     height: 90vw;
-    margin-bottom: 5rem;
+    margin-bottom: 40px;
+    max-width: 330px;
+    max-height: 330px;
+    min-width: 260px;
+    min-height: 260px;
 }
+
+.app .label-game {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--spacing-big);
+}
+
+

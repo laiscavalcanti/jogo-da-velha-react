@@ -1,10 +1,10 @@
-import React from "react"
-import "./style.css"
+import React from 'react';
+import './style.css';
 
-const IconClose = () => (
-  <a href="#" className="icon-close">
-    <span className="content">Fechar</span>
-  </a>
-)
+const IconClose = ({ onClick }) => (
+    <a href="#main" className="icon-close" onClick={onClick}>
+        <span className="content">Fechar</span>
+    </a>
+);
 
-export default IconClose
+export default IconClose;

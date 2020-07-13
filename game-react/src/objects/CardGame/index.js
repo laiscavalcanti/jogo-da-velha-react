@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
 
-const Card = (props) => (
-    <article className="card">
+const CardGame = (props) => (
+    <article className="card-game">
         {props.children}
     </article>
 );
 
-export default Card;
+export default CardGame;
