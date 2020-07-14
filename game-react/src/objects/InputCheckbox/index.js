@@ -4,9 +4,6 @@ import './style.css';
 import InputGame from '../InputGame';
 import LabelGame from '../LabelGame';
 
-const handleClick = ()=>{
-    
-}
 
 const InputCheckbox = ({ id = "", value = "", content = "", onClick }) => (
     <>
