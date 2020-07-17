@@ -5,17 +5,17 @@ import CardGame from '../../objects/CardGame';
 import './style.css';
 
 
-const HashtagGame = () =>(
-
-   <CardGame>
-    <ul className="hashtag-game">
-        {players.map (player =>(
-            <li className="item" onClick={h}></li>
-        ))}
-    </ul>
+const HashtagGame = ({historyGame, onClick, lastRound}) => (
+    <CardGame>
+        <ul className="hashtag-game">
+            {historyGame[lastRound].state.map(({id, content}) => (
+                <li key={id} className="item" onClick={() => content === '' && onClick(id)}>
+                    <PlayerGame id={id} content={content} />
+                </li>
+            ))
+            }
+        </ul>
     </CardGame>
-
-
 );
 
 export default HashtagGame;

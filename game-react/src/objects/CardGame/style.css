@@ -1,7 +1,5 @@
 .card-game {
-    width: 330px;
-    height: 330px;
     background-color: var(--color-zero);
-    border-radius: 5px;
-    box-shadow: 0 3px 6px 0 var(--color-fourth);
+    border-radius: var(--spacing-radius);
+    box-shadow: 0 3px 6px 0 var(--color-light-negative);
 }

@@ -1,10 +1,13 @@
-import React from "react"
-import "./style.css"
+import React from 'react';
+import './style.css';
 
 const MenuGame = ({ onClick }) => (
-  <a href="#menu" className="menu-game" onClick={onClick}>
-    <span className="center">Menu</span>
-  </a>
-)
+    <a href="#menu"
+        className="menu-game"
+        onClick={onClick}
+    >
+        <span className="center">Menu</span>
+    </a>
+);
 
-export default MenuGame
+export default MenuGame;

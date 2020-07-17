@@ -6,12 +6,6 @@
   text-transform: uppercase;
 }
 
-
-.about-link .-active{
-  transform: translateX(0);
-
-}
-
 .about-link.-light {
   color: var(--color-zero);
 }
